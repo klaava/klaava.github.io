@@ -1,19 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/css-responsive-menu.css" />
-</head>
-<body>
-  <div class="css-responsive-menu">
-    <label for="hidden-checkbox1" class="expand-control">Menu</label>
-    <input type="checkbox" id="hidden-checkbox1" class="expand-control">
+<html>
 
-    <ul class="navigation-list">
-      <li><a href="about.html">about</a></li>
-      <li><a href="contact.html">contact</a></li>
-    </ul>
+<head>
+  <meta charset="utf-8">
+  <title>css-responsive-menu</title>
+  <meta name="description" content="">
+  <meta name="author" content="css-responsive-menu">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/skeleton.css" />
+  <link rel="stylesheet" href="/css/css-responsive-menu.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+</head>
+
+<body>
+  <!--To fill the full browser width behind the menu-->
+  <div class="menu-filler">
+
+    <!--For skeleton-->
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns" id="page-top">
+
+          <!--For css responsive menu-->
+          <div class="css-responsive-menu">
+            <label for="hidden-checkbox1" class="expand-control button">Menu</label>
+            <input type="checkbox" id="hidden-checkbox1" class="expand-control">
+
+            <ul class="navigation-list">
+              <li><a href="getting-started.html">Getting Started</a></li>
+              <li><a href="contribute.html">Contribute</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns topOfPage wrap-center">
+        <h1><a href="index.html">css-responsive-menu</a></h1>
+        <a class="button button-primary" href="https://github.com/datchung/css-responsive-menu/blob/master/dist/css-responsive-menu.zip?raw=true">Download</a>
+        <p><a href="https://github.com/datchung/css-responsive-menu">GitHub</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <h2>Getting Started</h2>
+        <ol>
+          <li>Download the zip file and extract the contents to your folder.</li>
+          <li>
+            Link to the css file in your page.
+            <pre><code>&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css-responsive-menu.css&#x22; /&#x3E;</pre>
+            </code>
+          </li>
+          <li>
+            Use the following code template for the menu.
+            <pre><code>&#x3C;div class=&#x22;css-responsive-menu&#x22;&#x3E;
+  &#x3C;label for=&#x22;hidden-checkbox1&#x22; class=&#x22;expand-control&#x22;&#x3E;Menu&#x3C;/label&#x3E;
+  &#x3C;input type=&#x22;checkbox&#x22; id=&#x22;hidden-checkbox1&#x22; class=&#x22;expand-control&#x22;&#x3E;
+
+  &#x3C;ul class=&#x22;navigation-list&#x22;&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;about.html&#x22;&#x3E;about&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;&#x3C;a href=&#x22;contact.html&#x22;&#x3E;contact&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+  &#x3C;/ul&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        Copyright 2014-2015 By Dat Chung
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
