@@ -1,4 +1,0 @@
-
-
-# 		Keep It Simple, Stupid
-
